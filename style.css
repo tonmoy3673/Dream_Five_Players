@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #485460;
+}
+
+#header-logo{
+    width: 220px;
+
+}
+
+
+#heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #0984e3;
+}
+#text{
+    
+   color: #f39c12; 
+}
+#info{
+    color:#dfe6e9;
+}
+.card-image{
+    width: 270px;
+    height: 180px;
+}
+.link:hover{
+    color: #dfe6e9;
+
+}
+#total{
+    color: #f39c12; 
+}

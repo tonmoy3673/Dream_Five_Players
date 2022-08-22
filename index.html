@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- =======Google Fonts Link========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+     <!--Font Awesome CDN Link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ==========CSS Link======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Select Dream Five Players</title>
+  </head>
+  <body>
+
+    <!-- ===========Header Section========= -->
+    <div class="container-fluid">
+
+      <header class="px-5">
+        <div class="row pt-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4">
+              <img src="images/Header.png" id="header-logo">
+            </div>
+
+            <div class="col-lg-8 text-center">
+              <h1 class="mb-4" id="heading"><span id="text">Select</span> Your Dream Five <span id="text">Players</span></h1>
+
+              <h5 id="info">Enter into the thrilling world of Fantasy sports, a strategy-based online sports game wherein you can create a virtual team of real players playing in real life matches. Create your team to win points based on all the players' performance in a live game.</h5>
+            </div>
+
+            
+        </div>
+
+    </header>
+
+
+    </div>
+
+    <!-- =========Header Part End====== -->
+
+    <!-- ============Players Selection Part=========== -->
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-9 ">
+          <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 py-4">
+            <div class="col">
+              <div class="card border-0">
+                <img src="images/Neymar.png" class="card-img-top card-image img-fluid" alt="...">
+                <div class="card-body text-center bg-dark">
+                  <h5 class="card-title text-primary fw-bold">Neymar Jr</h5>
+                  <p class="card-text text-white">36 Goals . 120 Assist</p>
+                  <button onclick="selectPlayer(this)" type="button" class="btn btn-primary btn-lg">Select</button>
+
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img src="images/Messi.png" class="card-img-top  img-fluid card-image" alt="..." >
+                <div class="card-body text-center bg-dark">
+                  <h5 class="card-title text-primary fw-bold">Lionel Messi</h5>
+                  <p class="card-text text-white">16 Goals . 12 Assist</p>
+                  <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img src="images/Mbappe.png" class="card-img-top img-fluid card-image" alt="...">
+                <div class="card-body text-center bg-dark">
+                  <h5 class="card-title text-primary fw-bold">Kylian Mbappé</h5>
+                  <p class="card-text text-white">25 Goals . 101 Assist</p>
+                  <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+
+                </div>
+                
+              </div>
+            </div>
+            
+            
+            
+            
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card  border-0">
+                  <img src="images/ramos.png" class="card-img-top card-image img-fluid" alt="...">
+                  <div class="card-body text-center bg-dark">
+                    <h5 class="card-title text-primary fw-bold">Sergio Ramos</h5>
+                    <p class="card-text text-white">20 Goals . 105 Assist</p>
+                    <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+  
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0">
+                  <img src="images/Marquinhos.jpg" class="card-img-top  img-fluid card-image" alt="..." >
+                  <div class="card-body text-center bg-dark">
+                    <h5 class="card-title text-primary fw-bold">Marquinhos</h5>
+                    <p class="card-text text-white">16 Goals . 12 Assist</p>
+                    <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+  
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0">
+                  <img src="images/Hakini.jpg" class="card-img-top img-fluid card-image" alt="...">
+                  <div class="card-body text-center bg-dark">
+                    <h5 class="card-title text-primary fw-bold">Marco Verratti</h5>
+                    <p class="card-text text-white">25 Goals . 101 Assist</p>
+                    <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+  
+                  </div>
+                  
+                </div>
+              </div>
+              
+              
+              
+              
+              </div>
+              <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 py-4">
+                <div class="col">
+                  <div class="card  border-0">
+                    <img src="images/Achraf.jpg" class="card-img-top card-image img-fluid" alt="...">
+                    <div class="card-body text-center bg-dark">
+                      <h5 class="card-title text-primary fw-bold">Achraf Hakimi</h5>
+                      <p class="card-text text-white">29 Goals . 115 Assist</p>
+                      <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+    
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0">
+                    <img src="images/Renato Sanches.png" class="card-img-top  img-fluid card-image" alt="..." >
+                    <div class="card-body text-center bg-dark">
+                      <h5 class="card-title text-primary fw-bold">Renato Sanches</h5>
+                      <p class="card-text text-white">32 Goals . 90 Assist</p>
+                      <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+    
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0">
+                    <img src="images/Vítor Machado.png" class="card-img-top img-fluid card-image" alt="...">
+                    <div class="card-body text-center bg-dark">
+                      <h5 class="card-title text-primary fw-bold">Vítor Machado</h5>
+                      <p class="card-text text-white">35 Goals . 111 Assist</p>
+                      <button type="button" onclick="selectPlayer(this)" class="btn btn-primary btn-lg">Select</button>
+    
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                
+                
+                
+                </div>
+        </div>
+
+        <!-- ========Side Bar========== -->
+
+        <!-- =========Player Name Added========= -->
+        <div class="col-3 py-4">
+          <div class="bg-dark text-light ps-4 rounded-2">
+              <h3 class="text-primary py-3">Selected-5</h3>
+              <hr>
+              <table class="table table-dark table-striped">
+                  <thead>
+                      <tr>
+                        <th scope="col" class="text-primary">No.</th>
+                        <th scope="col" class="text-primary">Name</th>
+                      </tr>
+                  </thead>
+                  <tbody id="selection">
+
+                  </tbody>
+                </table>
+          </div>
+          
+          <!-- ===========Cost Calculation Part========== -->
+          <div class="calculte text-white py-5 bg-dark px-2">
+              <div class="d-flex text-center justify-content-between">
+                  <h6>Per Player:</h6>
+                  <input id="player" type="number" class="w-75 ms-4" type="text">
+              </div>
+              <button id="player-cost-btn" class="btn btn-primary btn-sm my-3 w-100">Calculate</button>
+              
+              <h6 class="d-flex text-center justify-content-between">Player Expenses:<span id="expenses" class="text-light me-4">00</span></h6>
+              
+              
+              <div class="d-flex text-center justify-content-between mb-2">
+                  <h6>Manager:</h6>
+                  <input id="manager-cost" type="number" class="w-50 ms-4" type="text">
+              </div>
+              
+              <div class="d-flex text-center justify-content-between mt-1">
+                  <h6>Coach:</h6>
+                  <input id="coach-cost" type="number" class="w-50 ms-4" type="text">
+              </div>
+              <!-- total calculate btn  -->
+              <button id="total-cost" class="btn btn-primary btn-sm my-3 w-100">Calculate Total</button>
+              <!-- Total  -->
+              <h5 class="d-flex text-center justify-content-center mt-3">Total: <span id="total" class="ms-3">00</span></h5>
+          </div>
+      </div>
+      </div>
+
+    </div>
+    <!-- ===========Footer Part============== -->
+
+    <div class="container-fluid bg-dark text-white pt-2">
+      <div class="row d-flex pt-3 text-center">
+       <div class="col-lg-3 text-center">
+         <h4 class="text-primary">Select Your Dream Five Players</h4>
+         <p>It is a fantasy sports platform that allows users to play fantasy cricket, hockey, football, kabaddi, handball, basketball, volleyball, rugby, futsal, American football and baseball. </p>
+       </div>
+
+       <div class="col-lg-6 py-4">
+        <h5 class="py-5 text-primary">Copyright @ 2022 All Rights Reserved</h5>
+       </div>
+
+       <div class="col-lg-3">
+        <h4 class="text-primary">Contact Us</h4>
+        <p>Office 32, Nikunja-2,<br>
+          Khilkhet,<br>
+          Dhaka-1229<br>
+          Privacy Policy | Terms of use
+
+        
+        </p>
+      </div>
+        <!-- ===========Social Media Link========= -->
+      <div class="col-lg-12 py-3 d-flex justify-content-center align-items-center mb-5">
+        <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google ms-5 fs-4 link"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter ms-5 fs-4 link"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube ms-5 fs-4 link"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin ms-5 fs-4 link"></i></a>
+      </div>
+      </div>
+
+
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- ========External JsFile===== -->
+    <script src="common.js">
+
+    </script>
+    <script src="apps.js">
+
+    </script>
+
+    
+  </body>
+</html>
