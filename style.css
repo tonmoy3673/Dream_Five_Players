@@ -29,7 +29,17 @@ body{
 .card-image{
     width: 270px;
     height: 180px;
+    
 }
+
+.inner{
+    transition: all 1.5s ease;
+    overflow: hidden;
+}
+.inner:hover .card-image{
+    transform: scale(1.2);
+}
+
 .link:hover{
     color: #dfe6e9;
 
